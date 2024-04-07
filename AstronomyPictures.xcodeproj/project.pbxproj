@@ -9,13 +9,27 @@
 /* Begin PBXBuildFile section */
 		9374F8742BC140C100EA624D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8732BC140C100EA624D /* AppDelegate.swift */; };
 		9374F8762BC140C100EA624D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8752BC140C100EA624D /* SceneDelegate.swift */; };
-		9374F8782BC140C100EA624D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8772BC140C100EA624D /* ViewController.swift */; };
+		9374F8782BC140C100EA624D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8772BC140C100EA624D /* HomeViewController.swift */; };
 		9374F87B2BC140C100EA624D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9374F8792BC140C100EA624D /* Main.storyboard */; };
 		9374F87D2BC140C200EA624D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9374F87C2BC140C200EA624D /* Assets.xcassets */; };
 		9374F8802BC140C200EA624D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9374F87E2BC140C200EA624D /* LaunchScreen.storyboard */; };
 		9374F88B2BC140C200EA624D /* AstronomyPicturesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F88A2BC140C200EA624D /* AstronomyPicturesTests.swift */; };
 		9374F8952BC140C200EA624D /* AstronomyPicturesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8942BC140C200EA624D /* AstronomyPicturesUITests.swift */; };
 		9374F8972BC140C200EA624D /* AstronomyPicturesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8962BC140C200EA624D /* AstronomyPicturesUITestsLaunchTests.swift */; };
+		9374F8AC2BC1420100EA624D /* AstronomyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8AA2BC1420100EA624D /* AstronomyService.swift */; };
+		9374F8AD2BC1420100EA624D /* AstronomyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8AB2BC1420100EA624D /* AstronomyEntity.swift */; };
+		9374F8AF2BC1421A00EA624D /* AstronomyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8AE2BC1421A00EA624D /* AstronomyCollectionViewCell.swift */; };
+		9374F8B42BC143C100EA624D /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8B32BC143C100EA624D /* ImageCacheManager.swift */; };
+		9374F8B62BC1453C00EA624D /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8B52BC1453C00EA624D /* ImageDownloader.swift */; };
+		9374F8B82BC14A2900EA624D /* ImageDiskCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9374F8B72BC14A2900EA624D /* ImageDiskCacheManager.swift */; };
+		93A3AF012BC14E6C00F09210 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AF002BC14E6C00F09210 /* UIImageView+Extension.swift */; };
+		93A3AF042BC156E100F09210 /* AstronomyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AF032BC156E100F09210 /* AstronomyDetailViewController.swift */; };
+		93A3AF092BC1934D00F09210 /* AstronomyListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AF082BC1934D00F09210 /* AstronomyListViewModel.swift */; };
+		93A3AF0B2BC19BCF00F09210 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AF0A2BC19BCF00F09210 /* Date+Extension.swift */; };
+		93A3AF0D2BC19EED00F09210 /* AstronomyCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AF0C2BC19EED00F09210 /* AstronomyCellViewModel.swift */; };
+		93A3AF112BC22A6F00F09210 /* AstronomyEntityCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AF102BC22A6F00F09210 /* AstronomyEntityCacheManager.swift */; };
+		93A3AF142BC23B4B00F09210 /* LoadingReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AF132BC23B4B00F09210 /* LoadingReusableView.swift */; };
+		93A3AF162BC241F300F09210 /* EmptyDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A3AF152BC241F300F09210 /* EmptyDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +53,7 @@
 		9374F8702BC140C100EA624D /* AstronomyPictures.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AstronomyPictures.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9374F8732BC140C100EA624D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9374F8752BC140C100EA624D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9374F8772BC140C100EA624D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9374F8772BC140C100EA624D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		9374F87A2BC140C100EA624D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9374F87C2BC140C200EA624D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9374F87F2BC140C200EA624D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +63,20 @@
 		9374F8902BC140C200EA624D /* AstronomyPicturesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AstronomyPicturesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9374F8942BC140C200EA624D /* AstronomyPicturesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPicturesUITests.swift; sourceTree = "<group>"; };
 		9374F8962BC140C200EA624D /* AstronomyPicturesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyPicturesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9374F8AA2BC1420100EA624D /* AstronomyService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyService.swift; sourceTree = "<group>"; };
+		9374F8AB2BC1420100EA624D /* AstronomyEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyEntity.swift; sourceTree = "<group>"; };
+		9374F8AE2BC1421A00EA624D /* AstronomyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AstronomyCollectionViewCell.swift; sourceTree = "<group>"; };
+		9374F8B32BC143C100EA624D /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		9374F8B52BC1453C00EA624D /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		9374F8B72BC14A2900EA624D /* ImageDiskCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDiskCacheManager.swift; sourceTree = "<group>"; };
+		93A3AF002BC14E6C00F09210 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
+		93A3AF032BC156E100F09210 /* AstronomyDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyDetailViewController.swift; sourceTree = "<group>"; };
+		93A3AF082BC1934D00F09210 /* AstronomyListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyListViewModel.swift; sourceTree = "<group>"; };
+		93A3AF0A2BC19BCF00F09210 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		93A3AF0C2BC19EED00F09210 /* AstronomyCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyCellViewModel.swift; sourceTree = "<group>"; };
+		93A3AF102BC22A6F00F09210 /* AstronomyEntityCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronomyEntityCacheManager.swift; sourceTree = "<group>"; };
+		93A3AF132BC23B4B00F09210 /* LoadingReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingReusableView.swift; sourceTree = "<group>"; };
+		93A3AF152BC241F300F09210 /* EmptyDataView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmptyDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +127,11 @@
 		9374F8722BC140C100EA624D /* AstronomyPictures */ = {
 			isa = PBXGroup;
 			children = (
+				9374F8B22BC143AD00EA624D /* Singleton */,
+				9374F8A32BC141C500EA624D /* Extensions */,
+				9374F8A52BC141D400EA624D /* ViewControllers */,
 				9374F8732BC140C100EA624D /* AppDelegate.swift */,
 				9374F8752BC140C100EA624D /* SceneDelegate.swift */,
-				9374F8772BC140C100EA624D /* ViewController.swift */,
 				9374F8792BC140C100EA624D /* Main.storyboard */,
 				9374F87C2BC140C200EA624D /* Assets.xcassets */,
 				9374F87E2BC140C200EA624D /* LaunchScreen.storyboard */,
@@ -125,6 +155,82 @@
 				9374F8962BC140C200EA624D /* AstronomyPicturesUITestsLaunchTests.swift */,
 			);
 			path = AstronomyPicturesUITests;
+			sourceTree = "<group>";
+		};
+		9374F8A32BC141C500EA624D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				93A3AF002BC14E6C00F09210 /* UIImageView+Extension.swift */,
+				93A3AF0A2BC19BCF00F09210 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9374F8A52BC141D400EA624D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				93A3AF022BC155F500F09210 /* DetailViewController */,
+				9374F8A62BC141DA00EA624D /* HomeViewController */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		9374F8A62BC141DA00EA624D /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9374F8A92BC141F300EA624D /* ViewModel */,
+				9374F8A82BC141F000EA624D /* View */,
+				9374F8A72BC141EA00EA624D /* Model */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		9374F8A72BC141EA00EA624D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9374F8AB2BC1420100EA624D /* AstronomyEntity.swift */,
+				9374F8AA2BC1420100EA624D /* AstronomyService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9374F8A82BC141F000EA624D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				93A3AF152BC241F300F09210 /* EmptyDataView.swift */,
+				9374F8772BC140C100EA624D /* HomeViewController.swift */,
+				9374F8AE2BC1421A00EA624D /* AstronomyCollectionViewCell.swift */,
+				93A3AF132BC23B4B00F09210 /* LoadingReusableView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9374F8A92BC141F300EA624D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				93A3AF082BC1934D00F09210 /* AstronomyListViewModel.swift */,
+				93A3AF0C2BC19EED00F09210 /* AstronomyCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9374F8B22BC143AD00EA624D /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				9374F8B32BC143C100EA624D /* ImageCacheManager.swift */,
+				9374F8B52BC1453C00EA624D /* ImageDownloader.swift */,
+				9374F8B72BC14A2900EA624D /* ImageDiskCacheManager.swift */,
+				93A3AF102BC22A6F00F09210 /* AstronomyEntityCacheManager.swift */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
+		93A3AF022BC155F500F09210 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				93A3AF032BC156E100F09210 /* AstronomyDetailViewController.swift */,
+			);
+			path = DetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +364,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9374F8782BC140C100EA624D /* ViewController.swift in Sources */,
+				93A3AF012BC14E6C00F09210 /* UIImageView+Extension.swift in Sources */,
+				93A3AF092BC1934D00F09210 /* AstronomyListViewModel.swift in Sources */,
+				9374F8B62BC1453C00EA624D /* ImageDownloader.swift in Sources */,
+				9374F8782BC140C100EA624D /* HomeViewController.swift in Sources */,
+				9374F8AF2BC1421A00EA624D /* AstronomyCollectionViewCell.swift in Sources */,
+				9374F8B82BC14A2900EA624D /* ImageDiskCacheManager.swift in Sources */,
+				9374F8AD2BC1420100EA624D /* AstronomyEntity.swift in Sources */,
+				93A3AF162BC241F300F09210 /* EmptyDataView.swift in Sources */,
+				9374F8B42BC143C100EA624D /* ImageCacheManager.swift in Sources */,
 				9374F8742BC140C100EA624D /* AppDelegate.swift in Sources */,
+				9374F8AC2BC1420100EA624D /* AstronomyService.swift in Sources */,
+				93A3AF142BC23B4B00F09210 /* LoadingReusableView.swift in Sources */,
+				93A3AF0B2BC19BCF00F09210 /* Date+Extension.swift in Sources */,
+				93A3AF112BC22A6F00F09210 /* AstronomyEntityCacheManager.swift in Sources */,
+				93A3AF042BC156E100F09210 /* AstronomyDetailViewController.swift in Sources */,
 				9374F8762BC140C100EA624D /* SceneDelegate.swift in Sources */,
+				93A3AF0D2BC19EED00F09210 /* AstronomyCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
